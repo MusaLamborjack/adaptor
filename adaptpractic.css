@@ -4,7 +4,7 @@
 }
 .container {
     width: 100%;
-    height: 100%;
+    height: 1500px;
     padding-top: 40px;
 }
 .header {
@@ -69,4 +69,38 @@
 .manimg {
     min-width: 200px;
     max-width: 400px;
+}
+.main {
+    width: 100%;
+    height: 350px;
+}
+.div-imgmid {
+    width: 290px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.img-midmain {
+    width: 110px;
+    
+}
+.h1-mid {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.p-mid {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 385px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+.main-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    
 }
