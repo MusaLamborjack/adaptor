@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.body {
+    background-color: rgb(247, 244, 244);
+}
 @font-face {
     font-family:'lato';
     src: url(../adaptation/fonts/Lato-Black.ttf) format("ttf");
@@ -23,6 +25,7 @@
     margin: 0 auto;
     min-height: 100vh;
     padding-top: 40px;
+    padding-left: 10px;`
     background-color: rgb(247, 244, 244);
     font-family: 'lato';
 }
